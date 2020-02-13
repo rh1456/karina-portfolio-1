@@ -12,11 +12,15 @@ const App = () => {
         <h1 className="name-hOne">Karina Silveira</h1>
       </header>
       <div className="home-about">
-        <p>Home</p>
+        <p>
+          <Link className="home-link" to="/">
+            Home
+          </Link>
+        </p>
         <p>About</p>
       </div>
       <div className="first-cartoon">
-        <img src={Cartoon} alt="" />
+        <img src={Cartoon} />
       </div>
 
       <Switch>
