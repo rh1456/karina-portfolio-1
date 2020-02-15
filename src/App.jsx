@@ -5,6 +5,7 @@ import Page2 from './pages/Page2'
 import HomePage from './pages/HomePage'
 import NotFound from './pages/NotFound'
 import Cartoon from './pages/cartoon_One.JPG'
+import CartoonTwo from './pages/cartoon_Two.jpg'
 const App = () => {
   return (
     <Router>
@@ -21,6 +22,9 @@ const App = () => {
       </div>
       <div className="first-cartoon">
         <img src={Cartoon} />
+      </div>
+      <div className="first-cartoon">
+        <img src={CartoonTwo} />
       </div>
 
       <Switch>

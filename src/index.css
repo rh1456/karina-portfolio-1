@@ -41,8 +41,13 @@ p {
 .first-cartoon {
   display: flex;
   justify-content: center;
+  padding: 2rem;
 }
 img {
   height: 30rem;
   width: 30rem;
+}
+.home-link {
+  text-decoration: none;
+  color: white;
 }
