@@ -23,6 +23,7 @@ const App = () => {
       <div className="first-cartoon">
         <img src={Cartoon} />
       </div>
+
       <div className="first-cartoon">
         <img src={CartoonTwo} />
       </div>
