@@ -27,7 +27,9 @@ const App = () => {
       <div className="first-cartoon">
         <img src={CartoonTwo} />
       </div>
-
+      <div className="comment-section">
+        <input className="art commnet" type="text"></input>
+      </div>
       <Switch>
         <Route exact path="/" component={HomePage}></Route>
         <Route exact path="/1" component={Page}></Route>
